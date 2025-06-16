@@ -1,6 +1,15 @@
 # GitHub Copilot Metrics Dashboard
 
-[English](#english) | [Türkçe](#turkish)
+<p align="center">
+  <img src="./public/example-dashboard.png" alt="Example Dashboard" width="80%" />
+</p>
+
+## Table of Contents
+- [English](#english)
+- [Türkçe](#türkçe)
+- [License](#license)
+
+---
 
 ## English
 
@@ -14,6 +23,11 @@ GitHub Copilot Metrics Dashboard is a web application that provides insights and
 - Customizable dashboards
 - Secure authentication with GitHub OAuth
 
+### Example Dashboard
+<p align="center">
+  <img src="./public/example-dashboard.png" alt="Example Dashboard" width="80%" />
+</p>
+
 ### Prerequisites
 - Node.js (v16 or higher)
 - npm or yarn
@@ -21,50 +35,45 @@ GitHub Copilot Metrics Dashboard is a web application that provides insights and
 - Docker and Docker Compose (for containerized deployment)
 
 ### Installation
-1. Clone the repository:
+
+#### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/github-copilot-metrics-dashboard.git
+git clone https://github.com/kariyertech/GitHub-Copilot-Metric-Dashboard.git
 cd github-copilot-metrics-dashboard
 ```
 
-2. Install dependencies:
+#### 2. Install dependencies
 ```bash
 npm install
 ```
 
-3. Configure environment variables:
+#### 3. Configure environment variables
+Create a `.env` file and add:
 ```env
 NUXT_GITHUB_TOKEN=your_github_token
 NUXT_SESSION_PASSWORD=your_session_password
 NUXT_OAUTH_GITHUB_CLIENT_SECRET=your_github_client_secret
 ```
 
-4. Start the development server:
+#### 4. Start the development server
 ```bash
 npm run dev
 ```
 
 ### Docker Support
+
 #### Using Docker
-Build and run with Docker:
 ```bash
 docker build -t copilot-metrics-dashboard .
 docker run -p 3000:3000 copilot-metrics-dashboard
 ```
 
 #### Using Docker Compose
-1. Create a `.env` file with your environment variables:
-```env
-NUXT_GITHUB_TOKEN=your_github_token
-NUXT_SESSION_PASSWORD=your_session_password
-NUXT_OAUTH_GITHUB_CLIENT_SECRET=your_github_client_secret
-```
-
+1. Create a `.env` file as above.
 2. Start the application:
 ```bash
 docker-compose up -d
 ```
-
 3. To stop the application:
 ```bash
 docker-compose down
@@ -73,12 +82,9 @@ docker-compose down
 ### Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-### License
-MIT License
-
 ---
 
-## Turkish
+## Türkçe
 
 ### Genel Bakış
 GitHub Copilot Metrics Dashboard, GitHub Copilot kullanımı için içgörüler ve analitikler sağlayan bir web uygulamasıdır. Ekiplerin Copilot kullanım modellerini, verimliliğini ve geliştirme iş akışlarına etkisini takip etmelerine ve analiz etmelerine yardımcı olur.
@@ -90,6 +96,11 @@ GitHub Copilot Metrics Dashboard, GitHub Copilot kullanımı için içgörüler 
 - Özelleştirilebilir paneller
 - GitHub OAuth ile güvenli kimlik doğrulama
 
+### Örnek Dashboard
+<p align="center">
+  <img src="./public/example-dashboard.png" alt="Örnek Dashboard" width="80%" />
+</p>
+
 ### Gereksinimler
 - Node.js (v16 veya üzeri)
 - npm veya yarn
@@ -97,50 +108,45 @@ GitHub Copilot Metrics Dashboard, GitHub Copilot kullanımı için içgörüler 
 - Docker ve Docker Compose (konteynerli dağıtım için)
 
 ### Kurulum
-1. Depoyu klonlayın:
+
+#### 1. Depoyu klonlayın
 ```bash
-git clone https://github.com/yourusername/github-copilot-metrics-dashboard.git
+git clone https://github.com/kariyertech/GitHub-Copilot-Metric-Dashboard.git
 cd github-copilot-metrics-dashboard
 ```
 
-2. Bağımlılıkları yükleyin:
+#### 2. Bağımlılıkları yükleyin
 ```bash
 npm install
 ```
 
-3. Ortam değişkenlerini yapılandırın:
+#### 3. Ortam değişkenlerini yapılandırın
+Bir `.env` dosyası oluşturun ve şunları ekleyin:
 ```env
 NUXT_GITHUB_TOKEN=github_tokeniniz
 NUXT_SESSION_PASSWORD=oturum_sifreniz
 NUXT_OAUTH_GITHUB_CLIENT_SECRET=github_client_secretiniz
 ```
 
-4. Geliştirme sunucusunu başlatın:
+#### 4. Geliştirme sunucusunu başlatın
 ```bash
 npm run dev
 ```
 
 ### Docker Desteği
+
 #### Docker Kullanımı
-Docker ile derleyip çalıştırın:
 ```bash
 docker build -t copilot-metrics-dashboard .
 docker run -p 3000:3000 copilot-metrics-dashboard
 ```
 
 #### Docker Compose Kullanımı
-1. `.env` dosyası oluşturun ve ortam değişkenlerinizi ekleyin:
-```env
-NUXT_GITHUB_TOKEN=github_tokeniniz
-NUXT_SESSION_PASSWORD=oturum_sifreniz
-NUXT_OAUTH_GITHUB_CLIENT_SECRET=github_client_secretiniz
-```
-
+1. Yukarıdaki gibi bir `.env` dosyası oluşturun.
 2. Uygulamayı başlatın:
 ```bash
 docker-compose up -d
 ```
-
 3. Uygulamayı durdurmak için:
 ```bash
 docker-compose down
@@ -149,17 +155,9 @@ docker-compose down
 ### Katkıda Bulunma
 Katkılarınızı bekliyoruz! Lütfen Pull Request göndermekten çekinmeyin.
 
-### Lisans
-MIT Lisansı
+---
 
-## Örnek Dashboard
+## License
 
-### Türkçe
-Aşağıda örnek dashboard görüntüsü yer almaktadır:
-
-![Örnek Dashboard](./public/example-dashboard.png)
-
-### English
-Below is an example dashboard image:
-
-![Example Dashboard](./public/example-dashboard.png)
+MIT License  
+© 2025 Kariyer.net Tech & Innovation
