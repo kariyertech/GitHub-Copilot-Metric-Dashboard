@@ -4,83 +4,10 @@
   <img src="./public/example-dashboard.png" alt="Example Dashboard" width="80%" />
 </p>
 
-## Table of Contents
-- [English](#english)
+## İçindekiler
 - [Türkçe](#türkçe)
-- [License](#license)
-
----
-
-## English
-
-### Overview
-GitHub Copilot Metrics Dashboard is a web application that provides insights and analytics for GitHub Copilot usage. It helps teams track and analyze their Copilot usage patterns, efficiency, and impact on development workflows.
-
-### Features
-- Real-time metrics visualization
-- Usage statistics and trends
-- Team performance analytics
-- Customizable dashboards
-- Secure authentication with GitHub OAuth
-
-### Example Dashboard
-<p align="center">
-  <img src="./public/example-dashboard.png" alt="Example Dashboard" width="80%" />
-</p>
-
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
-- GitHub account with Copilot access
-- Docker and Docker Compose (for containerized deployment)
-
-### Installation
-
-#### 1. Clone the repository
-```bash
-git clone https://github.com/kariyertech/GitHub-Copilot-Metric-Dashboard.git
-cd github-copilot-metrics-dashboard
-```
-
-#### 2. Install dependencies
-```bash
-npm install
-```
-
-#### 3. Configure environment variables
-Create a `.env` file and add:
-```env
-NUXT_GITHUB_TOKEN=your_github_token
-NUXT_SESSION_PASSWORD=your_session_password
-NUXT_OAUTH_GITHUB_CLIENT_SECRET=your_github_client_secret
-```
-
-#### 4. Start the development server
-```bash
-npm run dev
-```
-
-### Docker Support
-
-#### Using Docker
-```bash
-docker build -t copilot-metrics-dashboard .
-docker run -p 3000:3000 copilot-metrics-dashboard
-```
-
-#### Using Docker Compose
-1. Create a `.env` file as above.
-2. Start the application:
-```bash
-docker-compose up -d
-```
-3. To stop the application:
-```bash
-docker-compose down
-```
-
-### Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+- [English](#english)
+- [Lisans / License](#lisans--license)
 
 ---
 
@@ -152,12 +79,79 @@ docker-compose up -d
 docker-compose down
 ```
 
-### Katkıda Bulunma
-Katkılarınızı bekliyoruz! Lütfen Pull Request göndermekten çekinmeyin.
+---
+
+## English
+
+### Overview
+GitHub Copilot Metrics Dashboard is a web application that provides insights and analytics for GitHub Copilot usage. It helps teams track and analyze their Copilot usage patterns, efficiency, and impact on development workflows.
+
+### Features
+- Real-time metrics visualization
+- Usage statistics and trends
+- Team performance analytics
+- Customizable dashboards
+- Secure authentication with GitHub OAuth
+
+### Example Dashboard
+<p align="center">
+  <img src="./public/example-dashboard.png" alt="Example Dashboard" width="80%" />
+</p>
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+- GitHub account with Copilot access
+- Docker and Docker Compose (for containerized deployment)
+
+### Installation
+
+#### 1. Clone the repository
+```bash
+git clone https://github.com/kariyertech/GitHub-Copilot-Metric-Dashboard.git
+cd github-copilot-metrics-dashboard
+```
+
+#### 2. Install dependencies
+```bash
+npm install
+```
+
+#### 3. Configure environment variables
+Create a `.env` file and add:
+```env
+NUXT_GITHUB_TOKEN=your_github_token
+NUXT_SESSION_PASSWORD=your_session_password
+NUXT_OAUTH_GITHUB_CLIENT_SECRET=your_github_client_secret
+```
+
+#### 4. Start the development server
+```bash
+npm run dev
+```
+
+### Docker Support
+
+#### Using Docker
+```bash
+docker build -t copilot-metrics-dashboard .
+docker run -p 3000:3000 copilot-metrics-dashboard
+```
+
+#### Using Docker Compose
+1. Create a `.env` file as above.
+2. Start the application:
+```bash
+docker-compose up -d
+```
+3. To stop the application:
+```bash
+docker-compose down
+```
 
 ---
 
-## License
+## Lisans / License
 
 MIT License  
 © 2025 Kariyer.net Tech & Innovation
