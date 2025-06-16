@@ -1,0 +1,190 @@
+[
+  {
+    "day": "2024-12-01",
+    "total_active_users": 25,
+    "total_engaged_users": 20,
+    "copilot_ide_code_completions": {
+      "total_engaged_users": 20,
+      "languages": [
+        {
+          "name": "TypeScript",
+          "total_engaged_users": 15
+        },
+        {
+          "name": "JavaScript", 
+          "total_engaged_users": 12
+        },
+        {
+          "name": "Vue",
+          "total_engaged_users": 8
+        }
+      ],
+      "editors": [
+        {
+          "name": "vscode",
+          "total_engaged_users": 18,
+          "models": [
+            {
+              "name": "default",
+              "is_custom_model": false,
+              "custom_model_training_date": null,
+              "total_engaged_users": 18,
+              "languages": [
+                {
+                  "name": "TypeScript",
+                  "total_engaged_users": 15,
+                  "total_code_suggestions": 50,
+                  "total_code_acceptances": 40,
+                  "total_code_lines_suggested": 300,
+                  "total_code_lines_accepted": 240
+                },
+                {
+                  "name": "JavaScript",
+                  "total_engaged_users": 12,
+                  "total_code_suggestions": 40,
+                  "total_code_acceptances": 32,
+                  "total_code_lines_suggested": 250,
+                  "total_code_lines_accepted": 200
+                },
+                {
+                  "name": "Vue",
+                  "total_engaged_users": 8,
+                  "total_code_suggestions": 35,
+                  "total_code_acceptances": 28,
+                  "total_code_lines_suggested": 150,
+                  "total_code_lines_accepted": 120
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "copilot_ide_chat": {
+      "total_engaged_users": 20,
+      "models": [
+        {
+          "name": "gpt-4o",
+          "is_custom_model": false,
+          "custom_model_training_date": null,
+          "total_engaged_users": 20,
+          "total_chats": 60,
+          "total_chat_insertion_events": 45,
+          "total_chat_copy_events": 25
+        }
+      ]
+    },
+    "copilot_dotcom_chat": {
+      "total_engaged_users": 5,
+      "models": [
+        {
+          "name": "gpt-4o",
+          "is_custom_model": false,
+          "custom_model_training_date": null,
+          "total_engaged_users": 5,
+          "total_chats": 15,
+          "total_chat_insertion_events": 8,
+          "total_chat_copy_events": 5
+        }
+      ]
+    },
+    "copilot_dotcom_pull_requests": {
+      "total_engaged_users": 3,
+      "total_pr_summaries_created": 5
+    }
+  },
+  {
+    "day": "2024-11-30",
+    "total_active_users": 24,
+    "total_engaged_users": 19,
+    "copilot_ide_code_completions": {
+      "total_engaged_users": 19,
+      "languages": [
+        {
+          "name": "TypeScript",
+          "total_engaged_users": 14
+        },
+        {
+          "name": "JavaScript", 
+          "total_engaged_users": 11
+        },
+        {
+          "name": "Vue",
+          "total_engaged_users": 7
+        }
+      ],
+      "editors": [
+        {
+          "name": "vscode",
+          "total_engaged_users": 17,
+          "models": [
+            {
+              "name": "default",
+              "is_custom_model": false,
+              "custom_model_training_date": null,
+              "total_engaged_users": 17,
+              "languages": [
+                {
+                  "name": "TypeScript",
+                  "total_engaged_users": 14,
+                  "total_code_suggestions": 45,
+                  "total_code_acceptances": 36,
+                  "total_code_lines_suggested": 280,
+                  "total_code_lines_accepted": 220
+                },
+                {
+                  "name": "JavaScript",
+                  "total_engaged_users": 11,
+                  "total_code_suggestions": 38,
+                  "total_code_acceptances": 30,
+                  "total_code_lines_suggested": 240,
+                  "total_code_lines_accepted": 190
+                },
+                {
+                  "name": "Vue",
+                  "total_engaged_users": 7,
+                  "total_code_suggestions": 32,
+                  "total_code_acceptances": 25,
+                  "total_code_lines_suggested": 140,
+                  "total_code_lines_accepted": 110
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "copilot_ide_chat": {
+      "total_engaged_users": 18,
+      "models": [
+        {
+          "name": "gpt-4o",
+          "is_custom_model": false,
+          "custom_model_training_date": null,
+          "total_engaged_users": 18,
+          "total_chats": 55,
+          "total_chat_insertion_events": 40,
+          "total_chat_copy_events": 22
+        }
+      ]
+    },
+    "copilot_dotcom_chat": {
+      "total_engaged_users": 4,
+      "models": [
+        {
+          "name": "gpt-4o",
+          "is_custom_model": false,
+          "custom_model_training_date": null,
+          "total_engaged_users": 4,
+          "total_chats": 12,
+          "total_chat_insertion_events": 6,
+          "total_chat_copy_events": 4
+        }
+      ]
+    },
+    "copilot_dotcom_pull_requests": {
+      "total_engaged_users": 2,
+      "total_pr_summaries_created": 3
+    }
+  }
+] 

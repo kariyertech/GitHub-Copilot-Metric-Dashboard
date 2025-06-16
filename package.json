@@ -1,0 +1,35 @@
+{
+  "name": "copilot-metrics-viewer",
+  "version": "2.0.3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "prepare": "nuxt prepare",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.7",
+    "nuxt": "^3.15.3",
+    "nuxt-auth-utils": "^0.5.7",
+    "roboto-fontface": "^0.10.0",
+    "undici": "^7.3.0",
+    "vue": "latest",
+    "vue-chartjs": "^5.3.2",
+    "vuetify": "^3.7.3",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "@nuxt/fonts": "^0.10.0",
+    "@types/webfontloader": "^1.6.38",
+    "sass-embedded": "^1.80.3",
+    "typescript": "^5.6.3",
+    "vue-tsc": "^2.1.6",
+    "vuetify-nuxt-module": "^0.18.3"
+  }
+}

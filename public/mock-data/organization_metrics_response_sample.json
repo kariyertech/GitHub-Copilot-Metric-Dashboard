@@ -1,0 +1,76 @@
+[
+  {
+    "date": "2024-12-01",
+    "total_suggestions_count": 150,
+    "total_acceptances_count": 120,
+    "total_lines_suggested": 800,
+    "total_lines_accepted": 600,
+    "total_active_users": 25,
+    "total_chat_acceptances": 45,
+    "total_chat_turns": 60,
+    "total_active_chat_users": 20,
+    "breakdown": [
+      {
+        "language": "TypeScript",
+        "editor": "vscode",
+        "suggestions_count": 50,
+        "acceptances_count": 40,
+        "lines_suggested": 300,
+        "lines_accepted": 240
+      },
+      {
+        "language": "JavaScript",
+        "editor": "vscode", 
+        "suggestions_count": 40,
+        "acceptances_count": 32,
+        "lines_suggested": 250,
+        "lines_accepted": 200
+      },
+      {
+        "language": "Vue",
+        "editor": "vscode",
+        "suggestions_count": 35,
+        "acceptances_count": 28,
+        "lines_suggested": 150,
+        "lines_accepted": 120
+      }
+    ]
+  },
+  {
+    "date": "2024-11-30", 
+    "total_suggestions_count": 140,
+    "total_acceptances_count": 110,
+    "total_lines_suggested": 750,
+    "total_lines_accepted": 550,
+    "total_active_users": 24,
+    "total_chat_acceptances": 40,
+    "total_chat_turns": 55,
+    "total_active_chat_users": 18,
+    "breakdown": [
+      {
+        "language": "TypeScript",
+        "editor": "vscode",
+        "suggestions_count": 45,
+        "acceptances_count": 36,
+        "lines_suggested": 280,
+        "lines_accepted": 220
+      },
+      {
+        "language": "JavaScript", 
+        "editor": "vscode",
+        "suggestions_count": 38,
+        "acceptances_count": 30,
+        "lines_suggested": 240,
+        "lines_accepted": 190
+      },
+      {
+        "language": "Vue",
+        "editor": "vscode",
+        "suggestions_count": 32,
+        "acceptances_count": 25,
+        "lines_suggested": 140,
+        "lines_accepted": 110
+      }
+    ]
+  }
+] 

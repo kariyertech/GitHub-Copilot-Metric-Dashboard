@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - NUXT_GITHUB_TOKEN=${NUXT_GITHUB_TOKEN}
+      - NUXT_SESSION_PASSWORD=${NUXT_SESSION_PASSWORD}
+      - NUXT_OAUTH_GITHUB_CLIENT_SECRET=${NUXT_OAUTH_GITHUB_CLIENT_SECRET}
+    volumes:
+      - .:/app
+      - /app/node_modules
+    restart: unless-stopped 

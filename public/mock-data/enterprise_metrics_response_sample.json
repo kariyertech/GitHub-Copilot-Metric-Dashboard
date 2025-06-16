@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2024-12-01",
+    "total_suggestions_count": 500,
+    "total_acceptances_count": 400,
+    "total_lines_suggested": 2500,
+    "total_lines_accepted": 2000,
+    "total_active_users": 150,
+    "total_chat_acceptances": 180,
+    "total_chat_turns": 220,
+    "total_active_chat_users": 120,
+    "breakdown": [
+      {
+        "language": "TypeScript",
+        "editor": "vscode",
+        "suggestions_count": 200,
+        "acceptances_count": 160,
+        "lines_suggested": 1000,
+        "lines_accepted": 800
+      },
+      {
+        "language": "JavaScript",
+        "editor": "vscode", 
+        "suggestions_count": 150,
+        "acceptances_count": 120,
+        "lines_suggested": 750,
+        "lines_accepted": 600
+      },
+      {
+        "language": "Python",
+        "editor": "vscode",
+        "suggestions_count": 80,
+        "acceptances_count": 64,
+        "lines_suggested": 400,
+        "lines_accepted": 320
+      },
+      {
+        "language": "Java",
+        "editor": "intellij",
+        "suggestions_count": 70,
+        "acceptances_count": 56,
+        "lines_suggested": 350,
+        "lines_accepted": 280
+      }
+    ]
+  },
+  {
+    "date": "2024-11-30", 
+    "total_suggestions_count": 480,
+    "total_acceptances_count": 380,
+    "total_lines_suggested": 2400,
+    "total_lines_accepted": 1900,
+    "total_active_users": 145,
+    "total_chat_acceptances": 170,
+    "total_chat_turns": 210,
+    "total_active_chat_users": 115,
+    "breakdown": [
+      {
+        "language": "TypeScript",
+        "editor": "vscode",
+        "suggestions_count": 190,
+        "acceptances_count": 152,
+        "lines_suggested": 950,
+        "lines_accepted": 760
+      },
+      {
+        "language": "JavaScript", 
+        "editor": "vscode",
+        "suggestions_count": 140,
+        "acceptances_count": 112,
+        "lines_suggested": 700,
+        "lines_accepted": 560
+      },
+      {
+        "language": "Python",
+        "editor": "vscode",
+        "suggestions_count": 75,
+        "acceptances_count": 60,
+        "lines_suggested": 375,
+        "lines_accepted": 300
+      },
+      {
+        "language": "Java",
+        "editor": "intellij",
+        "suggestions_count": 75,
+        "acceptances_count": 56,
+        "lines_suggested": 375,
+        "lines_accepted": 280
+      }
+    ]
+  }
+] 
