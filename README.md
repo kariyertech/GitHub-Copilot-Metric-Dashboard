@@ -24,9 +24,10 @@ GitHub Copilot Metrics Dashboard, GitHub Copilot kullanımı için içgörüler 
 - Özelleştirilebilir paneller
 - GitHub OAuth ile güvenli kimlik doğrulama
 
-### Örnek Dashboard
+
 <p align="center">
-  <img src="./public/example-dashboard.png" alt="Örnek Dashboard" width="80%" />
+  <img width="1500" height="705" alt="image" src="https://github.com/user-attachments/assets/f085657d-f5a2-4e54-80d9-b973a733a55e" />
+
 </p>
 
 ### Gereksinimler
