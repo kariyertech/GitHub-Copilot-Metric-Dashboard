@@ -1,7 +1,8 @@
 # GitHub Copilot Metrics Dashboard
 
 <p align="center">
-  <img src="./public/example-dashboard.png" alt="Example Dashboard" width="80%" />
+  <img width="1500" height="508" alt="image" src="https://github.com/user-attachments/assets/9652a156-546d-4801-a124-bf615311866f" />
+ />
 </p>
 
 ## İçindekiler
@@ -95,7 +96,8 @@ GitHub Copilot Metrics Dashboard is a web application that provides insights and
 
 ### Example Dashboard
 <p align="center">
-  <img src="./public/example-dashboard.png" alt="Example Dashboard" width="80%" />
+  <img width="1500" height="508" alt="image" src="https://github.com/user-attachments/assets/f2cc672b-ec05-403d-8312-0f97a126b068" />
+
 </p>
 
 ### Prerequisites
